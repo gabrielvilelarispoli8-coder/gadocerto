@@ -1,15 +1,57 @@
 ﻿/* =========================================
-   ESTILOS DO CTA DE RODAPÉ (PREMIUM)
+   ESTILOS DO CTA DE RODAPÉ (NOVILHA DE OURO - SUPREME)
    ========================================= */
 
-/* Cria o efeito em que a imagem da esquerda se desvanece no fundo preto da direita */
-.image-fade-right {
-  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 90%);
-  mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 90%);
+/* Renderização de alta fidelidade para as fontes */
+.group\/cta h2, 
+.group\/cta h4, 
+.group\/cta p, 
+.group\/cta span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-/* Feixe de luz varrendo o botão do WhatsApp para atrair o clique */
-.btn-shine-green::after {
+/* Cria o efeito cinematográfico de máscara: A imagem da esquerda desaparece suavemente no preto */
+.image-fade-right {
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 80%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 80%);
+}
+
+/* =========================================
+   PARTÍCULAS FLUTUANTES (CINEMATIC EMBERS)
+   ========================================= */
+.ember {
+  position: absolute;
+  bottom: -20px;
+  width: 4px;
+  height: 4px;
+  background-color: rgba(245, 158, 11, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px rgba(245, 158, 11, 0.6);
+  opacity: 0;
+  animation: float-up 8s ease-in infinite;
+}
+
+.ember-1 { left: 20%; animation-duration: 7s; animation-delay: 0s; }
+.ember-2 { left: 50%; animation-duration: 9s; animation-delay: 2s; width: 6px; height: 6px; }
+.ember-3 { left: 80%; animation-duration: 6s; animation-delay: 4s; }
+.ember-4 { left: 35%; animation-duration: 8s; animation-delay: 1s; width: 3px; height: 3px; }
+.ember-5 { left: 65%; animation-duration: 10s; animation-delay: 3s; }
+
+@keyframes float-up {
+  0% { transform: translateY(0) scale(0.5); opacity: 0; }
+  20% { opacity: 0.8; }
+  80% { opacity: 0.5; }
+  100% { transform: translateY(-500px) scale(1.5); opacity: 0; }
+}
+
+/* =========================================
+   EFEITOS DE BOTÃO E LUZES
+   ========================================= */
+
+/* Feixe de luz de Ouro varrendo o botão principal */
+.btn-shine-gold::after {
   content: '';
   position: absolute;
   top: 0;
@@ -19,25 +61,58 @@
   background: linear-gradient(
     to right, 
     rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.4) 50%, 
+    rgba(255, 255, 255, 0.3) 50%, 
     rgba(255, 255, 255, 0) 100%
   );
   transform: skewX(-25deg);
-  animation: shine-green 4s infinite;
+  animation: shine-gold 4s infinite;
 }
 
-@keyframes shine-green {
+@keyframes shine-gold {
   0% { left: -100%; }
   15% { left: 200%; }
   100% { left: 200%; }
 }
 
-/* Animação sutil do ícone balançando para "chamar" a atenção do usuário */
+/* Radar Sweep no Badge VIP */
+@keyframes radar-sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+.animate-radar-sweep {
+  animation: radar-sweep 2.5s ease-in-out infinite;
+}
+
+/* Anel de energia girando lentamente atrás do botão */
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.05); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Efeito de transição suave nas cores do gradiente de texto */
+.animate-gradient-x {
+  background-size: 200% auto;
+  animation: gradient-x 5s linear infinite;
+}
+
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Micro-interação: Animação sutil do ícone do WhatsApp */
 @keyframes wiggle {
-  0%, 100% { transform: rotate(-3deg); }
-  50% { transform: rotate(3deg); }
+  0%, 100% { transform: rotate(-3deg) scale(1); }
+  50% { transform: rotate(3deg) scale(1.1); }
 }
 
 .animate-wiggle {
-  animation: wiggle 2s ease-in-out infinite;
+  animation: wiggle 2.5s ease-in-out infinite;
 }

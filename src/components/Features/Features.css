@@ -1,32 +1,95 @@
-﻿/* Efeito de transição suave para os slides */
-.slide-enter {
-  opacity: 0;
-  transform: translateX(20px);
+﻿/* =========================================
+   ESTILOS PREMIUM DA SEÇÃO FEATURES - NOVILHA DE OURO
+   ========================================= */
+
+/* Renderização impecável das fontes */
+.features-section h2, 
+.features-section h4, 
+.features-section p, 
+.features-section span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-.slide-enter-active {
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 500ms, transform 500ms;
+/* -----------------------------------------
+   CELULAR FLUTUANTE (MOCKUP)
+   ----------------------------------------- */
+@keyframes float-phone {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
 }
 
-.slide-exit {
-  opacity: 1;
-  transform: translateX(0);
+.animate-float-phone {
+  animation: float-phone 6s ease-in-out infinite;
 }
 
-.slide-exit-active {
-  opacity: 0;
-  transform: translateX(-20px);
-  transition: opacity 500ms, transform 500ms;
+/* Pulso Dourado atrás do celular */
+@keyframes pulse-gold-slow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
 }
 
-/* Animação que faz o ícone do WhatsApp balançar para chamar atenção */
+.animate-pulse-gold-slow {
+  animation: pulse-gold-slow 5s ease-in-out infinite;
+}
+
+/* -----------------------------------------
+   ANIMAÇÃO DO SLIDER (BARRA DE PROGRESSO)
+   ----------------------------------------- */
+/* Essa animação dura exatamente os 6 segundos do intervalo do React */
+@keyframes slide-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-slide-progress {
+  animation: slide-progress 6s linear forwards;
+}
+
+/* -----------------------------------------
+   EFEITOS DE VIDRO (BULLETS)
+   ----------------------------------------- */
+.glass-bullet {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.glass-bullet:hover {
+  background: linear-gradient(145deg, rgba(245, 158, 11, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border-color: rgba(245, 158, 11, 0.2);
+  transform: translateX(5px);
+}
+
+/* -----------------------------------------
+   WHATSAPP WIGGLE (CHAMADA DE ATENÇÃO)
+   ----------------------------------------- */
 @keyframes wiggle {
   0%, 100% { transform: rotate(-3deg); }
   50% { transform: rotate(3deg); }
 }
 
 .animate-wiggle {
-  animation: wiggle 2s ease-in-out infinite;
+  animation: wiggle 2.5s ease-in-out infinite;
+}
+
+/* Efeito de luz varrendo o botão do WhatsApp */
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
 }

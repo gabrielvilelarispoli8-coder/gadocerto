@@ -38,3 +38,91 @@
 .cta-section:hover .cta-bg {
   transform: scale(1.05);
 }
+/* =========================================
+   ESTILOS PREMIUM DA SEÇÃO CTA - NOVILHA DE OURO
+   ========================================= */
+
+/* Zoom suave no fundo de gado quando o mouse entra na seção inteira */
+.cta-section:hover .cta-bg {
+  transform: scale(1.03);
+}
+
+/* -----------------------------------------
+   CAIXA DE VIDRO COM BORDA MÁGICA (COFRE)
+   ----------------------------------------- */
+.glass-cta-container {
+  /* Previne que a borda mágica vaze para fora dos cantos arredondados */
+  isolation: isolate; 
+}
+
+/* O feixe de luz que gira ao redor do container principal */
+.magic-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 150%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 70%,
+    rgba(245, 158, 11, 0.1) 80%,
+    rgba(245, 158, 11, 0.8) 95%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: rotate-border 6s linear infinite;
+  z-index: -1;
+}
+
+@keyframes rotate-border {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* -----------------------------------------
+   EFEITOS DOS BOTÕES
+   ----------------------------------------- */
+
+/* Efeito de feixe de luz passando pelo botão de Ouro */
+.btn-shine-gold::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.4) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  animation: shine-gold 5s infinite;
+}
+
+@keyframes shine-gold {
+  0% { left: -100%; }
+  20% { left: 200%; }
+  100% { left: 200%; }
+}
+
+/* Pulso poderoso e luxuoso atrás do botão principal */
+.animate-pulse-gold {
+  animation: pulse-gold-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-gold-glow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+/* Renderização impecável das fontes */
+.cta-section h2, 
+.cta-section p, 
+.cta-section span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

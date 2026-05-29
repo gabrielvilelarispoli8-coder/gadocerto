@@ -1,21 +1,21 @@
 ﻿/* =========================================
-   ESTILOS DO PAINEL DE MERCADO (MARKET DATA)
+   ESTILOS DO TERMINAL DE MERCADO (NOVILHA DE OURO)
    ========================================= */
 
-/* Efeito Glassmorphism Premium para os cards de cortes */
+/* Efeito Glassmorphism Fintech Premium para os cards */
 .glass-cut {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.005) 100%);
   border: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.8);
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform, box-shadow, border-color, background;
   position: relative;
   overflow: hidden;
 }
 
-/* Reflexo de luz sutil no topo do vidro (Micro-detalhe de luxo) */
+/* Reflexo de Ouro Líquido no topo do vidro (Micro-detalhe de luxo) */
 .glass-cut::before {
   content: '';
   position: absolute;
@@ -23,23 +23,86 @@
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
-  opacity: 0.6;
+  background: linear-gradient(90deg, transparent, rgba(245, 158, 11, 0.4), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
-/* Hover State Magnético: Eleva, acende a borda laranja e projeta um glow */
+/* Hover State Magnético Terminal: Borda de Ouro, Elevamento e Glow */
 .glass-cut:hover {
-  background: linear-gradient(145deg, rgba(217, 107, 39, 0.08) 0%, rgba(217, 107, 39, 0.02) 100%);
-  border-color: rgba(217, 107, 39, 0.4);
+  background: linear-gradient(145deg, rgba(245, 158, 11, 0.05) 0%, rgba(217, 107, 39, 0.01) 100%);
+  border-color: rgba(245, 158, 11, 0.3);
   transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.6),
-              0 0 20px 0 rgba(217, 107, 39, 0.15);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.9),
+              0 0 25px 0 rgba(245, 158, 11, 0.08);
 }
 
-/* Otimização de renderização para textos dentro do vidro para não ficarem embaçados */
+.glass-cut:hover::before {
+  opacity: 1;
+}
+
+/* Otimização de Fontes do Dashboard */
 .glass-cut p, 
-.glass-cut span {
+.glass-cut span,
+.market-section h2,
+.market-section h4 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+/* =========================================
+   ANIMAÇÕES DO HOLOGRAMA BOVINO (RAIO-X)
+   ========================================= */
+
+.bull-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+/* O Feixe de Laser que escaneia a imagem de cima para baixo */
+.hologram-scanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(245, 158, 11, 0.8);
+  box-shadow: 0 0 15px 2px rgba(245, 158, 11, 0.6), 
+              0 15px 30px rgba(245, 158, 11, 0.2);
+  z-index: 20;
+  opacity: 0;
+  animation: scan-vertical 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+@keyframes scan-vertical {
+  0% {
+    top: 5%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    top: 95%;
+    opacity: 0;
+  }
+}
+
+/* Efeito de fade-in contínuo pros pontinhos de marcação (UI) */
+.data-point {
+  animation: float-data 3s ease-in-out infinite alternate;
+}
+
+.delay-100 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.6s; }
+
+@keyframes float-data {
+  from { transform: translateY(0); opacity: 0.7; }
+  to { transform: translateY(-5px); opacity: 1; }
 }

@@ -1,8 +1,8 @@
 ﻿/* =========================================
-   ESTILOS E ANIMAÇÕES DOS DIFERENCIAIS
+   ESTILOS PREMIUM DA SEÇÃO DE DIFERENCIAIS
    ========================================= */
 
-/* Renderização de fonte Premium */
+/* Renderização de fonte de alta fidelidade */
 .differentials-section h2, 
 .differentials-section h3, 
 .differentials-section p,
@@ -12,23 +12,27 @@
   text-rendering: optimizeLegibility;
 }
 
-/* Transições refinadas dos Cards */
+/* -----------------------------------------
+   CARDS DE VIDRO NEGRO (DARK GLASSMORPHISM)
+   ----------------------------------------- */
 .differentials-section .diff-card {
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: transform, box-shadow, border-color;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.005) 100%);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, box-shadow, border-color, background;
 }
 
-/* Efeito de elevação "Fintech" */
+/* Efeito magnético e de elevação ao passar o mouse */
 .differentials-section .diff-card:hover {
-  transform: translateY(-8px);
-  border-color: rgba(217, 107, 39, 0.2);
-  box-shadow: 0 25px 50px -12px rgba(217, 107, 39, 0.08), 
-              0 15px 30px -10px rgba(0, 0, 0, 0.04);
+  transform: translateY(-8px) scale(1.01);
+  background: linear-gradient(145deg, rgba(245, 158, 11, 0.05) 0%, rgba(0, 0, 0, 1) 100%);
+  border-color: rgba(245, 158, 11, 0.2);
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.9), 
+              0 0 20px 0 rgba(245, 158, 11, 0.05);
 }
 
-/* Micro-interação no ícone do card */
+/* Micro-interação: O ícone do card levanta e dá uma leve rotacionada */
 .differentials-section .diff-card:hover i {
-  transform: scale(1.15) rotate(5deg);
+  transform: scale(1.15) translateY(-2px);
 }
 
 .differentials-section .diff-card i {
@@ -36,8 +40,12 @@
   will-change: transform;
 }
 
-/* Animação do feixe de luz exclusivo para o botão verde */
-.btn-shine-green::after {
+/* -----------------------------------------
+   EFEITOS DOS BOTÕES
+   ----------------------------------------- */
+
+/* Feixe de luz passando pelo botão de Assessoria (Dourado) */
+.btn-shine-gold::after {
   content: '';
   position: absolute;
   top: 0;
@@ -51,11 +59,21 @@
     rgba(255, 255, 255, 0) 100%
   );
   transform: skewX(-25deg);
-  animation: shine-green 3.5s infinite;
+  animation: shine-gold 4s infinite;
 }
 
-@keyframes shine-green {
+@keyframes shine-gold {
   0% { left: -100%; }
-  15% { left: 200%; }
+  20% { left: 200%; }
   100% { left: 200%; }
+}
+
+/* Pulso Dourado no fundo do botão VIP */
+.animate-pulse-gold {
+  animation: pulse-gold-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-gold-glow {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.05); }
 }
