@@ -2,7 +2,7 @@
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const whatsappLink = "https://wa.me/5555991325777?text=Olá!%20Estou%20no%20site%20da%20GadoCerto%20e%20quero%20agendar%20a%20ligação%20com%20meu%20gerente%20de%20conta%20para%20realizar%20a%20instalação%20e%20a%20verificação%20blindada%20do%20aplicativo.";
+  const whatsappLink = "https://wa.me/5555991325777?text=Olá!%20Estou%20no%20site%20da%20Novilha%20de%20Ouro%20e%20quero%20agendar%20a%20ligação%20com%20meu%20gerente%20de%20conta%20para%20realizar%20a%20instalação%20e%20a%20verificação%20blindada%20do%20aplicativo.";
 
   // Efeito para detectar o scroll da página e mudar o fundo do Header
   useEffect(() => {
@@ -24,7 +24,7 @@ export function Header() {
           <img 
             src="/logado.png" 
             alt="Novilha de Ouro" 
-            className="h-20 md:h-35 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+            className="h-[120px] md:h-[120px] w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
             onError={(e) => {
               e.target.style.display='none';
               e.target.nextSibling.style.display='flex';
