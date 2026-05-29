@@ -1,0 +1,63 @@
+﻿/* =========================================
+   ESTILOS E ANIMAÇÕES DA SEÇÃO HERO
+   ========================================= */
+
+/* Otimização de renderização para textos premium */
+#inicio h1, 
+#inicio h3, 
+#inicio p,
+#inicio span {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Animação suave de flutuação para o iPhone (Efeito 3D) */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.01);
+  }
+}
+
+.animate-float {
+  animation: float 7s ease-in-out infinite;
+}
+
+/* Animação de pulso super suave para a luz laranja atrás do celular */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+/* Scroll Bouncing suave para o rodapé da Hero */
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 8px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+/* Garante que o gradiente em texto funcione perfeitamente */
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}

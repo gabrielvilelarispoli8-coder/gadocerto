@@ -1,0 +1,32 @@
+﻿/* Efeito de transição suave para os slides */
+.slide-enter {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.slide-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 500ms, transform 500ms;
+}
+
+/* Animação que faz o ícone do WhatsApp balançar para chamar atenção */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}

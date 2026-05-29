@@ -1,0 +1,27 @@
+/* Efeito premium translúcido idêntico ao do celular da Landing Page */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Transição base dos cards */
+.card-hover {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* O que acontece quando você passa o mouse por cima do card */
+.card-hover:hover {
+  transform: translateY(-6px);
+  background: rgba(15, 23, 42, 0.7);
+  border-color: rgba(255, 255, 255, 0.1);
+  /* Sombra verde brilhante no hover (exemplo para o card verde) */
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6);
+}
+
+/* Específico para intensificar a cor da borda no hover */
+.border-emerald-500:hover { box-shadow: 0 10px 40px -10px rgba(16, 185, 129, 0.15); }
+.border-blue-500:hover { box-shadow: 0 10px 40px -10px rgba(59, 130, 246, 0.15); }
+.border-\[\#d96b27\]:hover { box-shadow: 0 10px 40px -10px rgba(217, 107, 39, 0.15); }

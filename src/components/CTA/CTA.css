@@ -1,0 +1,40 @@
+﻿/* Efeito de feixe de luz passando pelo botão principal (Laranja) */
+.btn-shine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.3) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  animation: shine 4s infinite;
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  15% { left: 200%; }
+  100% { left: 200%; }
+}
+
+/* Animação de "Pulso" para o botão do WhatsApp (Verde) */
+.btn-pulse-green {
+  box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  animation: pulse-green 2.5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@keyframes pulse-green {
+  to {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+}
+
+/* Efeito sutil de zoom in no background quando o mouse entra na seção */
+.cta-section:hover .cta-bg {
+  transform: scale(1.05);
+}

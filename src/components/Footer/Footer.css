@@ -1,0 +1,79 @@
+﻿
+/* Suavização de fontes para uma leitura extremamente nítida no tema escuro */
+footer h4, 
+footer h5, 
+footer p, 
+footer a, 
+footer span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Efeito de linha que surge no hover dos links institucionais (Estilo Apple) */
+footer ul li a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+footer ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #d96b27;
+  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+footer ul li a:hover {
+  color: #ffffff;
+}
+
+footer ul li a:hover::after {
+  width: 100%;
+}
+
+/* Animação da setinha de link externo (↗) dentro dos botões das lojas */
+footer .group {
+  will-change: transform, border-color, box-shadow;
+}
+
+footer .group:hover {
+  border-color: rgba(217, 107, 39, 0.4) !important;
+  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.9), 
+              0 0 15px 0 rgba(217, 107, 39, 0.05);
+}
+
+footer .group i.fa-arrow-up-right {
+  transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease;
+}
+
+footer .group:hover i.fa-arrow-up-right {
+  opacity: 1 !important;
+  transform: translate(3px, -3px);
+  color: #ffffff;
+}
+
+/* Transição elástica e efeito de flutuação nos círculos das Redes Sociais */
+footer .rounded-full {
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  will-change: transform, background-color, border-color;
+}
+
+footer .rounded-full:hover {
+  transform: scale(1.12) translateY(-4px);
+  box-shadow: 0 8px 20px -4px rgba(217, 107, 39, 0.3);
+}
+
+/* Ajuste fino na opacidade dos ícones de contato para não brigarem com o texto */
+footer .fa-location-dot,
+footer .fa-phone {
+  transition: transform 0.3s ease;
+}
+
+footer flex:hover > i.fa-location-dot,
+footer flex:hover > i.fa-phone {
+  transform: scale(1.1);
+}

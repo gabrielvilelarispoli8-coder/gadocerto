@@ -1,0 +1,43 @@
+﻿/* =========================================
+   ESTILOS DO CTA DE RODAPÉ (PREMIUM)
+   ========================================= */
+
+/* Cria o efeito em que a imagem da esquerda se desvanece no fundo preto da direita */
+.image-fade-right {
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 90%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 90%);
+}
+
+/* Feixe de luz varrendo o botão do WhatsApp para atrair o clique */
+.btn-shine-green::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.4) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  animation: shine-green 4s infinite;
+}
+
+@keyframes shine-green {
+  0% { left: -100%; }
+  15% { left: 200%; }
+  100% { left: 200%; }
+}
+
+/* Animação sutil do ícone balançando para "chamar" a atenção do usuário */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}

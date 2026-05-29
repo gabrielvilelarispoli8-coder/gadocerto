@@ -1,0 +1,24 @@
+﻿/* =========================================
+   ESTILOS DOS DEPOIMENTOS
+   ========================================= */
+
+.testimonials-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.testimonials-section .grid > div {
+  will-change: transform, border-color;
+}
+
+/* Deixa o texto de depoimento extremamente nítido e confortável para leitura no escuro */
+.testimonials-section p, 
+.testimonials-section span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Pequeno brilho na borda ao passar o mouse para sensação Premium */
+.testimonials-section .grid > div:hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 
+              0 0 20px 0 rgba(217, 107, 39, 0.05);
+}

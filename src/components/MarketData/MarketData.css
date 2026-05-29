@@ -1,0 +1,45 @@
+﻿/* =========================================
+   ESTILOS DO PAINEL DE MERCADO (MARKET DATA)
+   ========================================= */
+
+/* Efeito Glassmorphism Premium para os cards de cortes */
+.glass-cut {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, box-shadow, border-color, background;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Reflexo de luz sutil no topo do vidro (Micro-detalhe de luxo) */
+.glass-cut::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  opacity: 0.6;
+}
+
+/* Hover State Magnético: Eleva, acende a borda laranja e projeta um glow */
+.glass-cut:hover {
+  background: linear-gradient(145deg, rgba(217, 107, 39, 0.08) 0%, rgba(217, 107, 39, 0.02) 100%);
+  border-color: rgba(217, 107, 39, 0.4);
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.6),
+              0 0 20px 0 rgba(217, 107, 39, 0.15);
+}
+
+/* Otimização de renderização para textos dentro do vidro para não ficarem embaçados */
+.glass-cut p, 
+.glass-cut span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
