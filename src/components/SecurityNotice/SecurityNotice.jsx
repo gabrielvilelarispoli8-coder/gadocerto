@@ -5,16 +5,16 @@ export function SecurityNotice() {
   return (
     <section className="py-28 bg-[#050505] relative overflow-hidden border-t border-white/5 security-section">
       
-      {/* Background Textura Agro (Gado esfumaÁado bem suave no fundo) */}
+      {/* Background Textura Agro (Gado esfuma√ßado bem suave no fundo) */}
       <div className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1544865108-9a40fb68e7ea?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-[0.04] mix-blend-screen pointer-events-none"></div>
 
-      {/* Background Shield Glow (IluminaÁ„o Dourada Premium) */}
+      {/* Background Shield Glow (Ilumina√ß√£o Dourada Premium) */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-amber-600/10 blur-[150px] rounded-full pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#d96b27]/10 blur-[150px] rounded-full pointer-events-none"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         
-        {/* CabeÁalho da SeÁ„o com Õcone Estilo Apple */}
+        {/* Cabe√ßalho da Se√ß√£o com √çcone Estilo Apple */}
         <div className="flex flex-col items-center text-center mb-20">
           
           {/* Favicon (App Icon iOS Style) */}
@@ -28,11 +28,11 @@ export function SecurityNotice() {
                 e.target.nextSibling.style.display = 'flex';
               }}
             />
-            {/* Fallback de Luxo caso a imagem n„o seja encontrada */}
+            {/* Fallback de Luxo caso a imagem n√£o seja encontrada */}
             <div className="hidden absolute inset-0 bg-gradient-to-br from-[#1a1a1a] to-[#050505] flex-col items-center justify-center text-amber-500 rounded-[22.5%] border border-amber-500/30 shadow-[inset_0_0_20px_rgba(245,158,11,0.2)]">
               <i className="fa-solid fa-shield-halved text-4xl drop-shadow-[0_0_10px_rgba(245,158,11,0.8)]"></i>
             </div>
-            {/* Reflexo de luz na "tela" do Ìcone */}
+            {/* Reflexo de luz na "tela" do √≠cone */}
             <div className="app-icon-glare"></div>
           </div>
 
@@ -40,15 +40,15 @@ export function SecurityNotice() {
             AMBIENTE 100% BLINDADO
           </h4>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight drop-shadow-lg">
-            SeguranÁa de Banco, <br className="hidden md:block"/>
+            Seguran√ßa de Banco, <br className="hidden md:block"/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-[#d96b27]">Direto no Curral.</span>
           </h2>
           <p className="text-slate-400 text-lg md:text-xl max-w-3xl leading-relaxed">
-            A <strong className="text-amber-500 font-semibold">Novilha de Ouro</strong> eleva a proteÁ„o do seu patrimÙnio ao mais alto padr„o. Desenvolvemos um filtro de entrada rigoroso para garantir que <b>apenas pecuaristas reais e verificados</b> tenham acesso aos nossos lotes.
+            A <strong className="text-amber-500 font-semibold">Novilha de Ouro</strong> eleva a prote√ß√£o do seu patrim√¥nio ao mais alto padr√£o. Desenvolvemos um filtro de entrada rigoroso para garantir que <b>apenas pecuaristas reais e verificados</b> tenham acesso aos nossos lotes.
           </p>
         </div>
 
-        {/* 3 Passos da InstalaÁ„o e VerificaÁ„o (Layout Premium Ouro) */}
+        {/* 3 Passos da Instala√ß√£o e Verifica√ß√£o (Layout Premium Ouro) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
           
           {/* Linha conectando os passos (Apenas Desktop) */}
@@ -61,22 +61,22 @@ export function SecurityNotice() {
             </div>
             <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">1. Setup com Gerente</h3>
             <p className="text-slate-400 text-[15px] leading-relaxed group-hover:text-slate-300 transition-colors">
-              O acesso È exclusivo. A instalaÁ„o e a configuraÁ„o inicial do aplicativo s„o conduzidas em <b>ligaÁ„o direta com seu gerente de conta</b>, atrelando o sistema ao seu CPF ou CNPJ.
+              O acesso √© exclusivo. A instala√ß√£o e a configura√ß√£o inicial do aplicativo s√£o conduzidas em <b>liga√ß√£o direta com seu gerente de conta</b>, atrelando o sistema ao seu CPF ou CNPJ.
             </p>
           </div>
 
-          {/* Passo 2 - Destaque NFC (ObrigatÛrio e Brilhante) */}
+          {/* Passo 2 - Destaque NFC (Obrigat√≥rio e Brilhante) */}
           <div className="glass-step-card p-8 border-amber-500/40 relative z-10 transform md:-translate-y-4 shadow-[0_25px_50px_-12px_rgba(245,158,11,0.15)] group cursor-default active-step">
             <div className="absolute -top-3 -right-3 bg-gradient-to-r from-amber-400 to-[#d96b27] text-black text-[10px] font-extrabold px-5 py-1.5 rounded-full uppercase tracking-widest shadow-[0_0_20px_rgba(245,158,11,0.6)]">
-              ObrigatÛrio
+              Obrigat√≥rio
             </div>
             <div className="w-14 h-14 bg-gradient-to-br from-[#111] to-[#0a0a0a] rounded-full border-[2px] border-amber-400 flex items-center justify-center mb-6 shadow-[0_0_25px_rgba(245,158,11,0.5)] group-hover:scale-110 transition-transform duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-amber-400/20 animate-pulse"></div>
               <i className="fa-solid fa-wifi text-amber-400 rotate-90 text-xl relative z-10 drop-shadow-[0_0_5px_rgba(245,158,11,1)]"></i>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">2. ValidaÁ„o Digital (NFC)</h3>
+            <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-400 transition-colors">2. Valida√ß√£o Digital (NFC)</h3>
             <p className="text-slate-300 text-[15px] leading-relaxed group-hover:text-slate-200 transition-colors">
-              Durante o atendimento, nosso sistema exigir· a aproximaÁ„o (NFC) de um cart„o direto no seu celular. Isso atesta sua identidade banc·ria em uma rede <b>100% criptografada de ponta a ponta</b>.
+              Durante o atendimento, nosso sistema exigir√° a aproxima√ß√£o (NFC) de um cart√£o direto no seu celular. Isso atesta sua identidade banc√°ria em uma rede <b>100% criptografada de ponta a ponta</b>.
             </p>
           </div>
 
@@ -87,13 +87,13 @@ export function SecurityNotice() {
             </div>
             <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#d96b27] transition-colors">3. Cofre Premium Liberado</h3>
             <p className="text-slate-400 text-[15px] leading-relaxed group-hover:text-slate-300 transition-colors">
-              Com a titularidade validada, sua conta È ativada instantaneamente. O ambiente de pagamentos fica salvo no cofre digital, garantindo liquidez r·pida para futuras negociaÁıes.
+              Com a titularidade validada, sua conta √© ativada instantaneamente. O ambiente de pagamentos fica salvo no cofre digital, garantindo liquidez r√°pida para futuras negocia√ß√µes.
             </p>
           </div>
 
         </div>
 
-        {/* Disclaimer Importante sobre o Cart„o (Alta Convers„o e ReduÁ„o de Atrito) */}
+        {/* Disclaimer Importante sobre o Cart√£o (Alta Convers√£o e Redu√ß√£o de Atrito) */}
         <div className="mt-16 bg-gradient-to-r from-amber-900/30 via-amber-900/10 to-[#050505] border border-amber-500/30 rounded-[24px] p-8 flex flex-col sm:flex-row items-center gap-8 shadow-[0_15px_40px_rgba(0,0,0,0.6)] relative overflow-hidden group/disclaimer">
           {/* Efeito de luz varrendo o aviso como um reflexo de ouro */}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-amber-200/10 to-transparent -translate-x-full animate-shimmer"></div>
@@ -103,10 +103,10 @@ export function SecurityNotice() {
           </div>
           <div className="relative z-10 text-center sm:text-left">
             <h4 className="text-white font-extrabold text-xl md:text-2xl mb-2 tracking-tight">
-              Aviso: A validaÁ„o NFC gera <span className="text-amber-400 border-b-2 border-amber-400">Zero CobranÁas</span>
+              Aviso: A valida√ß√£o NFC gera <span className="text-amber-400 border-b-2 border-amber-400">Zero Cobran√ßas</span>
             </h4>
             <p className="text-amber-50 text-[15px] md:text-base leading-relaxed opacity-90 max-w-4xl">
-              A verificaÁ„o n„o debita um ˙nico centavo da sua conta. O processo utiliza tecnologia banc·ria <i>Tokenless</i> apenas para certificar a titularidade junto ao banco emissor. <b>Nossa equipe jamais solicitar· senhas ou seu cÛdigo de seguranÁa (CVV).</b>
+              A verifica√ß√£o n√£o debita um √∫nico centavo da sua conta. O processo utiliza tecnologia banc√°ria <i>Tokenless</i> apenas para certificar a titularidade junto ao banco emissor. <b>Nossa equipe jamais solicitar√° senhas ou seu c√≥digo de seguran√ßa (CVV).</b>
             </p>
           </div>
         </div>

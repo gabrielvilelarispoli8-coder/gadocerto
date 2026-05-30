@@ -1,8 +1,8 @@
 /* =========================================
-   ESTILOS PREMIUM DA SE«√O DE DIFERENCIAIS
+   ESTILOS PREMIUM DA SE√á√ÉO DE DIFERENCIAIS
    ========================================= */
 
-/* RenderizaÁ„o de fonte de alta fidelidade */
+/* Renderiza√ß√£o de fonte de alta fidelidade */
 .differentials-section h2, 
 .differentials-section h3, 
 .differentials-section p,
@@ -21,7 +21,7 @@
   will-change: transform, box-shadow, border-color, background;
 }
 
-/* Efeito magnÈtico e de elevaÁ„o ao passar o mouse */
+/* Efeito magn√©tico e de eleva√ß√£o ao passar o mouse */
 .differentials-section .diff-card:hover {
   transform: translateY(-8px) scale(1.01);
   background: linear-gradient(145deg, rgba(245, 158, 11, 0.05) 0%, rgba(0, 0, 0, 1) 100%);
@@ -30,7 +30,7 @@
               0 0 20px 0 rgba(245, 158, 11, 0.05);
 }
 
-/* Micro-interaÁ„o: O Ìcone do card levanta e d· uma leve rotacionada */
+/* Micro-intera√ß√£o: O √≠cone do card levanta e d√° uma leve rotacionada */
 .differentials-section .diff-card:hover i {
   transform: scale(1.15) translateY(-2px);
 }
@@ -41,10 +41,10 @@
 }
 
 /* -----------------------------------------
-   EFEITOS DOS BOT’ES
+   EFEITOS DOS BOT√ïES
    ----------------------------------------- */
 
-/* Feixe de luz passando pelo bot„o de Assessoria (Dourado) */
+/* Feixe de luz passando pelo bot√£o de Assessoria (Dourado) */
 .btn-shine-gold::after {
   content: '';
   position: absolute;
@@ -68,7 +68,7 @@
   100% { left: 200%; }
 }
 
-/* Pulso Dourado no fundo do bot„o VIP */
+/* Pulso Dourado no fundo do bot√£o VIP */
 .animate-pulse-gold {
   animation: pulse-gold-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const whatsappLink = "https://wa.me/5564992837665?text=Ol·!%20Estou%20no%20site%20da%20Novilha%20de%20Ouro%20e%20quero%20agendar%20a%20ligaÁ„o%20com%20meu%20gerente%20de%20conta%20para%20realizar%20a%20instalaÁ„o%20e%20a%20verificaÁ„o%20blindada%20do%20aplicativo.";
+  const whatsappLink = "https://wa.me/5564992837665?text=Ol√°!%20Estou%20no%20site%20da%20Novilha%20de%20Ouro%20e%20quero%20agendar%20a%20liga√ß√£o%20com%20meu%20gerente%20de%20conta%20para%20realizar%20a%20instala√ß√£o%20e%20a%20verifica√ß√£o%20blindada%20do%20aplicativo.";
 
-  // Efeito para detectar o scroll da p·gina e mudar o fundo do Header
+  // Efeito para detectar o scroll da p√°gina e mudar o fundo do Header
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -30,13 +30,13 @@ export function Header() {
               e.target.nextSibling.style.display='flex';
             }} 
           />
-          {/* Fallback caso a imagem n„o carregue */}
+          {/* Fallback caso a imagem n√£o carregue */}
           <div className="hidden px-4 py-2 bg-[#111] items-center justify-center text-emerald-500 rounded border border-emerald-500/30 font-bold tracking-tight">
             Novilha de Ouro
           </div>
         </div>
 
-        {/* Bot„o de WhatsApp do Header (Sempre visÌvel) */}
+        {/* Bot√£o de WhatsApp do Header (Sempre vis√≠vel) */}
         <div className="relative group/head">
           <div className="absolute -inset-1 bg-gradient-to-r from-[#25D366] to-[#128C7E] rounded-full blur opacity-30 group-hover/head:opacity-60 transition duration-500"></div>
           <a 
@@ -45,7 +45,7 @@ export function Header() {
             rel="noopener noreferrer"
             className="relative flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1eab52] text-white font-bold text-[11px] md:text-sm px-5 py-2.5 md:px-7 md:py-3 rounded-full transition-all duration-300 shadow-lg hover:scale-105 active:scale-95 tracking-wide overflow-hidden"
           >
-            {/* Efeito de luz passando no bot„o */}
+            {/* Efeito de luz passando no bot√£o */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover/head:animate-[shimmer_1.5s_infinite]"></div>
             
             <i className="fa-brands fa-whatsapp text-lg md:text-xl"></i>

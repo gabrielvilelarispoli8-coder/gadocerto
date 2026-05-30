@@ -5,13 +5,13 @@ export function MarketData() {
   return (
     <section className="relative w-full py-32 bg-[#030303] overflow-hidden border-t border-amber-500/10 market-section">
       
-      {/* CAMADA 1: Background Tech Agro (Malha Holográfica) */}
+      {/* CAMADA 1: Background Tech Agro (Malha HologrÃ¡fica) */}
       <div className="absolute inset-0 z-0 bg-[url('/grid-pattern.svg')] opacity-[0.05] pointer-events-none"></div>
       <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_top,_rgba(245,158,11,0.08)_0%,_rgba(3,3,3,1)_70%)]"></div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         
-        {/* Cabeçalho do Painel (Estilo Mesa de Operações) */}
+        {/* CabeÃ§alho do Painel (Estilo Mesa de OperaÃ§Ãµes) */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-amber-500/10 pb-8 relative">
           <div className="absolute bottom-0 left-0 w-32 h-[1px] bg-gradient-to-r from-amber-500 to-transparent"></div>
           
@@ -24,7 +24,7 @@ export function MarketData() {
               Terminal de Mercado Live
             </h4>
             <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
-              Cotação e <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-500 to-[#d96b27]">Rendimento</span>
+              CotaÃ§Ã£o e <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-500 to-[#d96b27]">Rendimento</span>
             </h2>
           </div>
           
@@ -76,7 +76,7 @@ export function MarketData() {
             
             <div className="glass-cut p-6 rounded-2xl flex justify-between items-center group cursor-default">
               <div>
-                <p className="text-white font-bold text-[16px] group-hover:text-amber-400 transition-colors tracking-wide">Contrafilé</p>
+                <p className="text-white font-bold text-[16px] group-hover:text-amber-400 transition-colors tracking-wide">ContrafilÃ©</p>
                 <p className="text-slate-500 text-[11px] mt-1 uppercase tracking-wider font-semibold">Alta demanda</p>
               </div>
               <div className="text-right">
@@ -97,12 +97,12 @@ export function MarketData() {
             </div>
           </div>
 
-          {/* CENTRO: Mapeamento Holográfico da Novilha de Ouro */}
+          {/* CENTRO: Mapeamento HologrÃ¡fico da Novilha de Ouro */}
           <div className="flex justify-center relative py-16 lg:py-0 group/bull cursor-crosshair">
             {/* Efeito Glow Pulsante */}
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-amber-500/10 blur-[100px] rounded-full z-0 pointer-events-none group-hover/bull:bg-amber-500/20 transition-all duration-1000"></div>
             
-            {/* Contêiner da Imagem com Efeito de Raio-X */}
+            {/* ContÃªiner da Imagem com Efeito de Raio-X */}
             <div className="relative z-10 w-full max-w-[480px] bull-container">
               
               {/* O Scanner a Laser que sobe e desce */}
@@ -142,7 +142,7 @@ export function MarketData() {
                 <p className="text-[10px] text-slate-500 font-medium uppercase tracking-widest">/ kg</p>
               </div>
               <div className="text-right">
-                <p className="text-white font-bold text-[16px] group-hover:text-amber-400 transition-colors tracking-wide">Acém</p>
+                <p className="text-white font-bold text-[16px] group-hover:text-amber-400 transition-colors tracking-wide">AcÃ©m</p>
                 <p className="text-slate-500 text-[11px] mt-1 uppercase tracking-wider font-semibold">Corte Dianteiro</p>
               </div>
             </div>

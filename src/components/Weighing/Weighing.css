@@ -1,8 +1,8 @@
 /* =========================================
-   ESTILOS PREMIUM DA SE«√O DE PESAGEM
+   ESTILOS PREMIUM DA SE√á√ÉO DE PESAGEM
    ========================================= */
 
-/* RenderizaÁ„o Impec·vel */
+/* Renderiza√ß√£o Impec√°vel */
 .weighing-section h2, 
 .weighing-section h4, 
 .weighing-section p, 
@@ -33,7 +33,7 @@
 }
 
 /* -----------------------------------------
-   PAIN…IS FLUTUANTES (GLASS BADGES)
+   PAIN√âIS FLUTUANTES (GLASS BADGES)
    ----------------------------------------- */
 .glass-badge {
   background: linear-gradient(145deg, rgba(10, 10, 10, 0.8) 0%, rgba(5, 5, 5, 0.9) 100%);
@@ -62,7 +62,7 @@
 }
 
 /* -----------------------------------------
-   EFEITO DE SCANNER HOLOGR¡FICO
+   EFEITO DE SCANNER HOLOGR√ÅFICO
    ----------------------------------------- */
 @keyframes scan-phone {
   0% { top: 0%; opacity: 0; }
@@ -76,10 +76,10 @@
 }
 
 /* -----------------------------------------
-   OTIMIZA«√O PARA MOBILE
+   OTIMIZA√á√ÉO PARA MOBILE
    ----------------------------------------- */
 @media (max-width: 1024px) {
-  /* Em telas menores, reduzimos a inclinaÁ„o e a dist‚ncia para caber na tela */
+  /* Em telas menores, reduzimos a inclina√ß√£o e a dist√¢ncia para caber na tela */
   .weighing-section .group\/backphone {
     transform: translate(-30px, -20px) rotate(-8deg) scale(0.8) !important;
   }
@@ -87,7 +87,7 @@
     transform: translate(20px, 20px) rotate(0) scale(0.9) !important;
   }
   
-  /* Esconde os painÈis flutuantes no celular para n„o poluir a tela pequena */
+  /* Esconde os pain√©is flutuantes no celular para n√£o poluir a tela pequena */
   .glass-badge {
     display: none;
   }

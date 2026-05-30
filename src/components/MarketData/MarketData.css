@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 
-/* Reflexo de Ouro Líquido no topo do vidro (Micro-detalhe de luxo) */
+/* Reflexo de Ouro LÃ­quido no topo do vidro (Micro-detalhe de luxo) */
 .glass-cut::before {
   content: '';
   position: absolute;
@@ -28,7 +28,7 @@
   transition: opacity 0.4s ease;
 }
 
-/* Hover State Magnético Terminal: Borda de Ouro, Elevamento e Glow */
+/* Hover State MagnÃ©tico Terminal: Borda de Ouro, Elevamento e Glow */
 .glass-cut:hover {
   background: linear-gradient(145deg, rgba(245, 158, 11, 0.05) 0%, rgba(217, 107, 39, 0.01) 100%);
   border-color: rgba(245, 158, 11, 0.3);
@@ -41,7 +41,7 @@
   opacity: 1;
 }
 
-/* Otimização de Fontes do Dashboard */
+/* OtimizaÃ§Ã£o de Fontes do Dashboard */
 .glass-cut p, 
 .glass-cut span,
 .market-section h2,
@@ -52,7 +52,7 @@
 }
 
 /* =========================================
-   ANIMAÇÕES DO HOLOGRAMA BOVINO (RAIO-X)
+   ANIMAÃ‡Ã•ES DO HOLOGRAMA BOVINO (RAIO-X)
    ========================================= */
 
 .bull-container {
@@ -94,7 +94,7 @@
   }
 }
 
-/* Efeito de fade-in contínuo pros pontinhos de marcação (UI) */
+/* Efeito de fade-in contÃ­nuo pros pontinhos de marcaÃ§Ã£o (UI) */
 .data-point {
   animation: float-data 3s ease-in-out infinite alternate;
 }

@@ -1,8 +1,8 @@
 /* =========================================
-   ESTILOS E ANIMA«’ES DA SE«√O HERO
+   ESTILOS E ANIMA√á√ïES DA SE√á√ÉO HERO
    ========================================= */
 
-/* OtimizaÁ„o de renderizaÁ„o para textos premium */
+/* Otimiza√ß√£o de renderiza√ß√£o para textos premium */
 #inicio h1, 
 #inicio h3, 
 #inicio p,
@@ -12,7 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* AnimaÁ„o suave de flutuaÁ„o para o iPhone (Efeito 3D) */
+/* Anima√ß√£o suave de flutua√ß√£o para o iPhone (Efeito 3D) */
 @keyframes float {
   0%, 100% {
     transform: translateY(0) scale(1);
@@ -26,7 +26,7 @@
   animation: float 7s ease-in-out infinite;
 }
 
-/* AnimaÁ„o de pulso super suave para a luz laranja atr·s do celular */
+/* Anima√ß√£o de pulso super suave para a luz laranja atr√°s do celular */
 @keyframes pulse-slow {
   0%, 100% {
     opacity: 0.4;
@@ -42,7 +42,7 @@
   animation: pulse-slow 6s ease-in-out infinite;
 }
 
-/* Scroll Bouncing suave para o rodapÈ da Hero */
+/* Scroll Bouncing suave para o rodap√© da Hero */
 @keyframes bounce-slow {
   0%, 100% {
     transform: translate(-50%, 0);
@@ -62,10 +62,10 @@
   background-clip: text;
 }
 /* =========================================
-   ESTILOS E ANIMA«’ES DA SE«√O HERO
+   ESTILOS E ANIMA√á√ïES DA SE√á√ÉO HERO
    ========================================= */
 
-/* OtimizaÁ„o de renderizaÁ„o para textos premium */
+/* Otimiza√ß√£o de renderiza√ß√£o para textos premium */
 #inicio h1, 
 #inicio h3, 
 #inicio p,
@@ -75,7 +75,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* AnimaÁ„o suave de flutuaÁ„o para o iPhone (Efeito 3D) */
+/* Anima√ß√£o suave de flutua√ß√£o para o iPhone (Efeito 3D) */
 @keyframes float {
   0%, 100% {
     transform: translateY(0) scale(1);
@@ -89,7 +89,7 @@
   animation: float 7s ease-in-out infinite;
 }
 
-/* AnimaÁ„o de pulso super suave para a luz dourada atr·s do celular */
+/* Anima√ß√£o de pulso super suave para a luz dourada atr√°s do celular */
 @keyframes pulse-slow {
   0%, 100% {
     opacity: 0.3;
@@ -105,7 +105,7 @@
   animation: pulse-slow 6s ease-in-out infinite;
 }
 
-/* Scroll Bouncing suave para o rodapÈ da Hero */
+/* Scroll Bouncing suave para o rodap√© da Hero */
 @keyframes bounce-slow {
   0%, 100% {
     transform: translate(-50%, 0);

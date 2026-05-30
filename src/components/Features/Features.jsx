@@ -5,14 +5,14 @@ export function Features() {
   const [activeSlide, setActiveSlide] = useState(0);
   
   // Link atualizado com o nome Novilha de Ouro
-  const whatsappLink = "https://wa.me/5564992837665?text=Ol·!%20Estou%20no%20site%20da%20Novilha%20de%20Ouro%20e%20quero%20agendar%20a%20ligaÁ„o%20com%20meu%20gerente%20de%20conta%20para%20realizar%20a%20instalaÁ„o%20e%20a%20verificaÁ„o%20blindada%20do%20aplicativo.";
+  const whatsappLink = "https://wa.me/5564992837665?text=Ol√°!%20Estou%20no%20site%20da%20Novilha%20de%20Ouro%20e%20quero%20agendar%20a%20liga√ß√£o%20com%20meu%20gerente%20de%20conta%20para%20realizar%20a%20instala√ß√£o%20e%20a%20verifica√ß√£o%20blindada%20do%20aplicativo.";
 
-  // Textos refinados para o p˙blico de alto padr„o
+  // Textos refinados para o p√∫blico de alto padr√£o
   const slides = [
-    { id: 1, img: '/1p.png', overline: 'INTELIG NCIA FINANCEIRA', title: 'Viabilidade de Ouro', desc: 'Projete margens de lucro e retorno financeiro com precis„o de tesouraria antes de qualquer aquisiÁ„o.', bullets: ['Simule cen·rios de compra, di·ria e rendimento de carcaÁa.', 'Tenha clareza absoluta da margem antes de acionar o gerente.'] },
-    { id: 2, img: '/2p.png', overline: 'RAIO-X DO REBANHO', title: 'Gest„o Premium', desc: 'Acesse o histÛrico genÈtico, pesagem e evoluÁ„o do rebanho em um dashboard digno de um banco de investimentos.', bullets: ['Acompanhamento de GMD (Ganho MÈdio Di·rio) em tempo real.', 'NotificaÁıes preditivas para manejo e vacinaÁ„o.'] },
-    { id: 3, img: '/3p.png', overline: 'AMBIENTE RESTRITO', title: 'NegociaÁ„o Blindada', desc: 'Conecte-se exclusivamente a pecuaristas validados. O maior e mais seguro ecossistema de alta liquidez do Brasil.', bullets: ['Filtros avanÁados: era, raÁa, peso e padr„o genÈtico.', 'Fechamento r·pido e direto no WhatsApp (X1) com assessoria.'] },
-    { id: 4, img: '/4p.png', overline: 'LOGÕSTICA VIP', title: 'Malha de Transporte', desc: 'Embarque seu lote com as melhores transportadoras do paÌs. RoteirizaÁ„o inteligente para preservar o bem-estar animal.', bullets: ['C·lculo instant‚neo de frete com otimizaÁ„o de carga.', 'Aproveitamento de rotas de retorno para m·xima eficiÍncia.'] }
+    { id: 1, img: '/1p.png', overline: 'INTELIG√äNCIA FINANCEIRA', title: 'Viabilidade de Ouro', desc: 'Projete margens de lucro e retorno financeiro com precis√£o de tesouraria antes de qualquer aquisi√ß√£o.', bullets: ['Simule cen√°rios de compra, di√°ria e rendimento de carca√ßa.', 'Tenha clareza absoluta da margem antes de acionar o gerente.'] },
+    { id: 2, img: '/2p.png', overline: 'RAIO-X DO REBANHO', title: 'Gest√£o Premium', desc: 'Acesse o hist√≥rico gen√©tico, pesagem e evolu√ß√£o do rebanho em um dashboard digno de um banco de investimentos.', bullets: ['Acompanhamento de GMD (Ganho M√©dio Di√°rio) em tempo real.', 'Notifica√ß√µes preditivas para manejo e vacina√ß√£o.'] },
+    { id: 3, img: '/3p.png', overline: 'AMBIENTE RESTRITO', title: 'Negocia√ß√£o Blindada', desc: 'Conecte-se exclusivamente a pecuaristas validados. O maior e mais seguro ecossistema de alta liquidez do Brasil.', bullets: ['Filtros avan√ßados: era, ra√ßa, peso e padr√£o gen√©tico.', 'Fechamento r√°pido e direto no WhatsApp (X1) com assessoria.'] },
+    { id: 4, img: '/4p.png', overline: 'LOG√çSTICA VIP', title: 'Malha de Transporte', desc: 'Embarque seu lote com as melhores transportadoras do pa√≠s. Roteiriza√ß√£o inteligente para preservar o bem-estar animal.', bullets: ['C√°lculo instant√¢neo de frete com otimiza√ß√£o de carga.', 'Aproveitamento de rotas de retorno para m√°xima efici√™ncia.'] }
   ];
 
   useEffect(() => {
@@ -32,18 +32,18 @@ export function Features() {
         
         {/* LADO ESQUERDO: Celular Premium */}
         <div className="flex flex-col items-center justify-center relative order-2 lg:order-1">
-          {/* Brilho dourado pulsante atr·s do celular */}
+          {/* Brilho dourado pulsante atr√°s do celular */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[550px] bg-amber-500/10 blur-[100px] rounded-full z-0 pointer-events-none animate-pulse-gold-slow"></div>
           
           {/* Estrutura do iPhone de Luxo */}
           <div className="relative w-[290px] h-[600px] bg-[#0a0a0a] rounded-[45px] p-[6px] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.8),0_0_30px_rgba(245,158,11,0.15)] border-[3px] border-[#2a2a2a] z-10 animate-float-phone">
             
-            {/* Dynamic Island (C‚mera do iPhone) */}
+            {/* Dynamic Island (C√¢mera do iPhone) */}
             <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-32 h-7 bg-black rounded-full z-40 shadow-[inset_0_0_4px_rgba(255,255,255,0.1)] flex justify-end items-center pr-3">
               <div className="w-3 h-3 rounded-full bg-[#151515] shadow-[inset_0_0_3px_rgba(255,255,255,0.2)]"></div>
             </div>
 
-            {/* Botıes laterais */}
+            {/* Bot√µes laterais */}
             <div className="absolute -left-[5px] top-[120px] w-[3px] h-[25px] bg-[#333] rounded-l-md"></div>
             <div className="absolute -left-[5px] top-[160px] w-[3px] h-[45px] bg-[#333] rounded-l-md"></div>
             <div className="absolute -left-[5px] top-[215px] w-[3px] h-[45px] bg-[#333] rounded-l-md"></div>
@@ -67,7 +67,7 @@ export function Features() {
                 />
               ))}
               
-              {/* Fallback caso as imagens 1p, 2p n„o carreguem */}
+              {/* Fallback caso as imagens 1p, 2p n√£o carreguem */}
               <div className="hidden absolute inset-0 bg-gradient-to-b from-[#1a1a1a] to-[#050505] flex-col items-center justify-center p-6 text-center z-10">
                 <i className="fa-solid fa-mobile-screen text-4xl text-amber-500/50 mb-3"></i>
                 <p className="text-xs text-slate-500">Imagens do App em carregamento...</p>
@@ -83,7 +83,7 @@ export function Features() {
                 onClick={() => setActiveSlide(index)} 
                 className={`relative h-2 rounded-full overflow-hidden transition-all duration-500 ${index === activeSlide ? 'w-12 bg-[#222]' : 'w-2 bg-[#222] hover:bg-[#333] cursor-pointer'}`}
               >
-                {/* A barrinha dourada que enche quando est· ativo */}
+                {/* A barrinha dourada que enche quando est√° ativo */}
                 {index === activeSlide && (
                   <div className="absolute top-0 left-0 h-full bg-gradient-to-r from-amber-400 to-[#d96b27] animate-slide-progress"></div>
                 )}
@@ -92,7 +92,7 @@ export function Features() {
           </div>
         </div>
 
-        {/* LADO DIREITO: Textos e Bot„o de AÁ„o */}
+        {/* LADO DIREITO: Textos e Bot√£o de A√ß√£o */}
         <div className="flex flex-col text-left relative min-h-[450px] justify-center order-1 lg:order-2">
           {slides.map((slide, index) => (
             <div 
@@ -132,7 +132,7 @@ export function Features() {
                     rel="noopener noreferrer" 
                     className="relative flex items-center justify-center gap-3 bg-gradient-to-r from-[#25D366] to-[#1eab52] hover:from-[#1eab52] hover:to-[#128C7E] text-white font-bold text-[14px] md:text-base tracking-widest uppercase px-10 py-5 rounded-full transition-all duration-300 shadow-xl hover:scale-[1.03] active:scale-95 w-full sm:w-fit overflow-hidden"
                   >
-                    {/* Efeito de brilho varrendo o bot„o */}
+                    {/* Efeito de brilho varrendo o bot√£o */}
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover/wpp:animate-[shimmer_1.5s_infinite]"></div>
                     
                     <i className="fa-brands fa-whatsapp text-[24px] animate-wiggle"></i>

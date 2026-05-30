@@ -1,8 +1,8 @@
 /* =========================================
-   ESTILOS DO CTA DE RODAP… (NOVILHA DE OURO - SUPREME)
+   ESTILOS DO CTA DE RODAP√â (NOVILHA DE OURO - SUPREME)
    ========================================= */
 
-/* RenderizaÁ„o de alta fidelidade para as fontes */
+/* Renderiza√ß√£o de alta fidelidade para as fontes */
 .group\/cta h2, 
 .group\/cta h4, 
 .group\/cta p, 
@@ -12,14 +12,14 @@
   text-rendering: optimizeLegibility;
 }
 
-/* Cria o efeito cinematogr·fico de m·scara: A imagem da esquerda desaparece suavemente no preto */
+/* Cria o efeito cinematogr√°fico de m√°scara: A imagem da esquerda desaparece suavemente no preto */
 .image-fade-right {
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 80%);
   mask-image: linear-gradient(to right, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 80%);
 }
 
 /* =========================================
-   PARTÕCULAS FLUTUANTES (CINEMATIC EMBERS)
+   PART√çCULAS FLUTUANTES (CINEMATIC EMBERS)
    ========================================= */
 .ember {
   position: absolute;
@@ -47,10 +47,10 @@
 }
 
 /* =========================================
-   EFEITOS DE BOT√O E LUZES
+   EFEITOS DE BOT√ÉO E LUZES
    ========================================= */
 
-/* Feixe de luz de Ouro varrendo o bot„o principal */
+/* Feixe de luz de Ouro varrendo o bot√£o principal */
 .btn-shine-gold::after {
   content: '';
   position: absolute;
@@ -84,7 +84,7 @@
   animation: radar-sweep 2.5s ease-in-out infinite;
 }
 
-/* Anel de energia girando lentamente atr·s do bot„o */
+/* Anel de energia girando lentamente atr√°s do bot√£o */
 .animate-spin-slow {
   animation: spin-slow 8s linear infinite;
 }
@@ -95,7 +95,7 @@
   100% { transform: rotate(360deg) scale(1); }
 }
 
-/* Efeito de transiÁ„o suave nas cores do gradiente de texto */
+/* Efeito de transi√ß√£o suave nas cores do gradiente de texto */
 .animate-gradient-x {
   background-size: 200% auto;
   animation: gradient-x 5s linear infinite;
@@ -107,7 +107,7 @@
   100% { background-position: 0% 50%; }
 }
 
-/* Micro-interaÁ„o: AnimaÁ„o sutil do Ìcone do WhatsApp */
+/* Micro-intera√ß√£o: Anima√ß√£o sutil do √≠cone do WhatsApp */
 @keyframes wiggle {
   0%, 100% { transform: rotate(-3deg) scale(1); }
   50% { transform: rotate(3deg) scale(1.1); }

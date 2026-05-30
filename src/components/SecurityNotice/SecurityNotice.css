@@ -1,8 +1,8 @@
 /* =========================================
-   ESTILOS DO SECURITY NOTICE (ALTA CONVERS√O)
+   ESTILOS DO SECURITY NOTICE (ALTA CONVERS√ÉO)
    ========================================= */
 
-/* RenderizaÁ„o Premium de Fontes */
+/* Renderiza√ß√£o Premium de Fontes */
 .security-section h2, 
 .security-section h3, 
 .security-section h4, 
@@ -13,12 +13,12 @@
 }
 
 /* -----------------------------------------
-   ÕCONE APPLE (FAVICON SQUIRCLE)
+   √çCONE APPLE (FAVICON SQUIRCLE)
    ----------------------------------------- */
 .app-icon-wrapper {
   width: 96px;
   height: 96px;
-  border-radius: 22.5%; /* ProporÁ„o cl·ssica da Apple */
+  border-radius: 22.5%; /* Propor√ß√£o cl√°ssica da Apple */
   position: relative;
   background-color: #0a0a0a;
   box-shadow: 0 20px 40px -10px rgba(16, 185, 129, 0.4), 
@@ -34,7 +34,7 @@
   z-index: 1;
 }
 
-/* Reflexo de vidro em diagonal sobre o Ìcone */
+/* Reflexo de vidro em diagonal sobre o √≠cone */
 .app-icon-glare {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -73,7 +73,7 @@
   box-shadow: 0 25px 50px -12px rgba(16, 185, 129, 0.2);
 }
 
-/* AnimaÁ„o do brilho passando no aviso final (Shimmer Effect) */
+/* Anima√ß√£o do brilho passando no aviso final (Shimmer Effect) */
 @keyframes shimmer {
   100% { transform: translateX(100%); }
 }
@@ -85,7 +85,7 @@
    ESTILOS DO SECURITY NOTICE (NOVILHA DE OURO)
    ========================================= */
 
-/* RenderizaÁ„o Premium de Fontes */
+/* Renderiza√ß√£o Premium de Fontes */
 .security-section h2, 
 .security-section h3, 
 .security-section h4, 
@@ -96,12 +96,12 @@
 }
 
 /* -----------------------------------------
-   ÕCONE APPLE (FAVICON SQUIRCLE) PREMIUM
+   √çCONE APPLE (FAVICON SQUIRCLE) PREMIUM
    ----------------------------------------- */
 .app-icon-wrapper {
   width: 96px;
   height: 96px;
-  border-radius: 22.5%; /* ProporÁ„o cl·ssica e elegante da Apple */
+  border-radius: 22.5%; /* Propor√ß√£o cl√°ssica e elegante da Apple */
   position: relative;
   background-color: #050505;
   box-shadow: 0 20px 40px -10px rgba(245, 158, 11, 0.4), 
@@ -117,7 +117,7 @@
   z-index: 1;
 }
 
-/* Reflexo de vidro em diagonal sobre o Ìcone (Efeito Glossy Ouro) */
+/* Reflexo de vidro em diagonal sobre o √≠cone (Efeito Glossy Ouro) */
 .app-icon-glare {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -156,7 +156,7 @@
   box-shadow: 0 25px 50px -12px rgba(245, 158, 11, 0.25);
 }
 
-/* AnimaÁ„o do brilho passando no aviso final (Shimmer Ouro Effect) */
+/* Anima√ß√£o do brilho passando no aviso final (Shimmer Ouro Effect) */
 @keyframes shimmer {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(100%); }
