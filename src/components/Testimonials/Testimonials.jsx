@@ -1,31 +1,31 @@
-Ôªøimport React from 'react';
+import React from 'react';
 import './Testimonials.css';
 
 export function Testimonials() {
-  // Depoimentos polidos e expandidos com foco em alta rentabilidade e seguran√ßa banc√°ria
+  // Depoimentos polidos e expandidos com foco em alta rentabilidade e seguranÁa banc·ria
   const reviews = [
     {
       id: 1,
-      text: "A Novilha de Ouro estabeleceu um novo patamar de integridade no mercado. Eles vendem exatamente o que pesa, com rastreabilidade total. Entregam o que foi combinado e respeitam o princ√≠pio de que neg√≥cio bom √© quando todos ganham.",
+      text: "A Novilha de Ouro estabeleceu um novo patamar de integridade no mercado. Eles vendem exatamente o que pesa, com rastreabilidade total. Entregam o que foi combinado e respeitam o princÌpio de que negÛcio bom È quando todos ganham.",
       author: "Clodoveu Franciosi",
       role: "Invernista e Produtor"
     },
     {
       id: 2,
-      text: "A certeza do peso real antes do embarque trouxe uma previsibilidade cir√∫rgica para a nossa opera√ß√£o. Ficou muito mais f√°cil realizar os c√°lculos de rentabilidade e rendimento de carca√ßa diretamente pelo sistema de pesagem.",
+      text: "A certeza do peso real antes do embarque trouxe uma previsibilidade cir˙rgica para a nossa operaÁ„o. Ficou muito mais f·cil realizar os c·lculos de rentabilidade e rendimento de carcaÁa diretamente pelo sistema de pesagem.",
       author: "Florian Dietz",
       role: "Pecuarista de Recria/Engorda"
     },
     {
       id: 3,
-      text: "Excelente ecossistema, transa√ß√µes l√≠quidas e ambiente blindado contra calotes. Para n√≥s pecuaristas que fazemos contas de alto valor e exigimos precis√£o milim√©trica, o aplicativo se tornou indispens√°vel.",
+      text: "Excelente ecossistema, transaÁıes lÌquidas e ambiente blindado contra calotes. Para nÛs pecuaristas que fazemos contas de alto valor e exigimos precis„o milimÈtrica, o aplicativo se tornou indispens·vel.",
       author: "Hugo Lorenzetti",
-      role: "Diretor Agropecu√°rio"
+      role: "Diretor Agropecu·rio"
     },
     {
       id: 4,
-      text: "Uma experi√™ncia de mercado inovadora e fora da curva. A valida√ß√£o digital e a agilidade nas esteiras de pagamento removem toda a fric√ß√£o e burocracia tradicional do campo. Padr√£o ouro absoluto.",
-      author: "Jos√© Renato Lemos",
+      text: "Uma experiÍncia de mercado inovadora e fora da curva. A validaÁ„o digital e a agilidade nas esteiras de pagamento removem toda a fricÁ„o e burocracia tradicional do campo. Padr„o ouro absoluto.",
+      author: "JosÈ Renato Lemos",
       role: "Investidor e Selecionador"
     }
   ];
@@ -40,7 +40,7 @@ export function Testimonials() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         
-        {/* Cabe√ßalho de Autoridade da Se√ß√£o */}
+        {/* CabeÁalho de Autoridade da SeÁ„o */}
         <div className="flex flex-col items-center text-center mb-24">
           <div className="flex items-center gap-3 mb-4">
             <div className="w-6 h-[2px] bg-amber-500"></div>
@@ -50,9 +50,9 @@ export function Testimonials() {
             <div className="w-6 h-[2px] bg-amber-500"></div>
           </div>
           <h2 className="text-4xl md:text-5xl font-light text-white tracking-tight leading-tight max-w-3xl">
-            Quem dita o ritmo do mercado j√° opera no <br />
+            Quem dita o ritmo do mercado j· opera no <br />
             <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-[#d96b27]">
-              Padr√£o Novilha de Ouro.
+              Padr„o Novilha de Ouro.
             </b>
           </h2>
         </div>
@@ -68,7 +68,7 @@ export function Testimonials() {
               <div className="absolute -top-12 -right-12 w-32 h-32 rounded-full bg-amber-500/5 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
               <div>
-                {/* √çcone de Aspas Ouro e Estrelas de Avalia√ß√£o */}
+                {/* Õcone de Aspas Ouro e Estrelas de AvaliaÁ„o */}
                 <div className="flex justify-between items-center mb-8">
                   <div className="w-12 h-12 rounded-xl bg-amber-500/5 border border-amber-500/20 flex items-center justify-center group-hover:border-amber-400 transition-colors duration-500">
                     <i className="fa-solid fa-quote-left text-[20px] text-amber-500 group-hover:drop-shadow-[0_0_8px_rgba(245,158,11,0.6)] transition-all duration-300"></i>

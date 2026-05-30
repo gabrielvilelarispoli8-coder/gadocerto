@@ -1,11 +1,11 @@
-Ôªøimport React from 'react';
+import React from 'react';
 import './Weighing.css';
 
 export function Weighing() {
   return (
     <section className="relative w-full py-32 bg-[#030303] overflow-hidden weighing-section border-t border-amber-500/10">
       
-      {/* Background Hologr√°fico Agro */}
+      {/* Background Hologr·fico Agro */}
       <div className="absolute inset-0 z-0 bg-[url('/grid-pattern.svg')] opacity-[0.05]"></div>
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-amber-600/10 blur-[150px] rounded-full pointer-events-none"></div>
       
@@ -19,28 +19,28 @@ export function Weighing() {
               <i className="fa-solid fa-weight-scale text-amber-500 text-xs"></i>
             </div>
             <h4 className="text-amber-500 text-xs md:text-sm font-bold tracking-[0.25em] uppercase drop-shadow-md">
-              M√≥dulo de Alta Precis√£o
+              MÛdulo de Alta Precis„o
             </h4>
           </div>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-8 leading-[1.1] tracking-tight drop-shadow-lg">
             A prancheta morreu. <br />
             <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-[#d96b27]">
-              O lucro √© medido em gramas.
+              O lucro È medido em gramas.
             </b>
           </h2>
           
           <p className="text-slate-400 text-lg mb-10 max-w-xl leading-relaxed font-medium">
-            Transforme o curral em um centro de intelig√™ncia de dados. Capture o peso, anule a margem de erro humano e exporte os relat√≥rios da <span className="text-amber-500/90">Novilha de Ouro</span> direto para a sua gest√£o.
+            Transforme o curral em um centro de inteligÍncia de dados. Capture o peso, anule a margem de erro humano e exporte os relatÛrios da <span className="text-amber-500/90">Novilha de Ouro</span> direto para a sua gest„o.
           </p>
 
           <div className="flex flex-col gap-4">
             {[
-              { icon: "fa-satellite-dish", text: "Configura√ß√£o remota de lotes e par√¢metros pr√©-lida." },
-              { icon: "fa-bluetooth-b", text: "Integra√ß√£o instant√¢nea com balan√ßas digitais (Bluetooth)." },
-              { icon: "fa-shield-halved", text: "Elimina√ß√£o de rasuras e perdas financeiras por anota√ß√£o." },
-              { icon: "fa-bolt", text: "Captura de peso e GMD (Ganho M√©dio Di√°rio) em milissegundos." },
-              { icon: "fa-file-pdf", text: "Auditoria final export√°vel em PDF e tabelas criptografadas." }
+              { icon: "fa-satellite-dish", text: "ConfiguraÁ„o remota de lotes e par‚metros prÈ-lida." },
+              { icon: "fa-bluetooth-b", text: "IntegraÁ„o instant‚nea com balanÁas digitais (Bluetooth)." },
+              { icon: "fa-shield-halved", text: "EliminaÁ„o de rasuras e perdas financeiras por anotaÁ„o." },
+              { icon: "fa-bolt", text: "Captura de peso e GMD (Ganho MÈdio Di·rio) em milissegundos." },
+              { icon: "fa-file-pdf", text: "Auditoria final export·vel em PDF e tabelas criptografadas." }
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-4 group cursor-default bg-white/[0.02] hover:bg-amber-500/[0.05] border border-white/5 hover:border-amber-500/20 p-4 rounded-2xl transition-all duration-300 backdrop-blur-sm">
                 <div className="mt-0.5 w-8 h-8 rounded-full bg-[#0a0a0a] border border-amber-500/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:border-amber-400 group-hover:shadow-[0_0_15px_rgba(245,158,11,0.4)]">
@@ -54,10 +54,10 @@ export function Weighing() {
           </div>
         </div>
 
-        {/* LADO DIREITO: Experi√™ncia Visual Surreal (3D Hologr√°fico) */}
+        {/* LADO DIREITO: ExperiÍncia Visual Surreal (3D Hologr·fico) */}
         <div className="relative flex justify-center items-center h-[600px] lg:h-[750px] order-1 lg:order-2 perspective-1000 mt-10 lg:mt-0">
           
-          {/* Base da "Balan√ßa Digital" (Efeito Sci-Fi no ch√£o) */}
+          {/* Base da "BalanÁa Digital" (Efeito Sci-Fi no ch„o) */}
           <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[400px] h-[100px] bg-amber-500/5 rounded-[100%] border-t-2 border-amber-500/40 blur-[2px] shadow-[0_-20px_50px_rgba(245,158,11,0.15)] transform rotate-X-60 pointer-events-none"></div>
 
           {/* Brilho Central Dourado */}
@@ -81,7 +81,7 @@ export function Weighing() {
             </div>
             <div>
               <p className="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Lote Fechado</p>
-              <p className="text-white font-extrabold text-lg">45 <span className="text-xs text-slate-500 font-normal">cabe√ßas</span></p>
+              <p className="text-white font-extrabold text-lg">45 <span className="text-xs text-slate-500 font-normal">cabeÁas</span></p>
             </div>
           </div>
 
@@ -114,7 +114,7 @@ export function Weighing() {
           {/* iPhone da Frente (Foco Principal em 3D) */}
           <div className="absolute z-20 transform translate-x-10 translate-y-6 rotate-[5deg] transition-all duration-700 hover:rotate-0 hover:scale-105 active:scale-95 cursor-pointer group/frontphone">
             
-            {/* Efeito Scanner Hologr√°fico passando no celular principal */}
+            {/* Efeito Scanner Hologr·fico passando no celular principal */}
             <div className="absolute top-0 left-0 w-full h-[2px] bg-amber-400 shadow-[0_0_20px_2px_rgba(245,158,11,0.8)] z-50 opacity-0 group-hover/frontphone:animate-scan-phone pointer-events-none"></div>
 
             <div className="w-[290px] h-[600px] bg-[#0a0a0a] rounded-[45px] p-[6px] border-[3px] border-[#2a2a2a] shadow-[-20px_30px_60px_rgba(0,0,0,0.9),0_0_40px_rgba(245,158,11,0.2)] overflow-hidden">

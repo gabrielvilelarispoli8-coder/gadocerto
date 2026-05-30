@@ -1,8 +1,8 @@
-Ôªø/* =========================================
+/* =========================================
    ESTILOS DOS DEPOIMENTOS (NOVILHA DE OURO)
    ========================================= */
 
-/* Suaviza√ß√£o de fontes premium contra serrilhados */
+/* SuavizaÁ„o de fontes premium contra serrilhados */
 .testimonials-section h2,
 .testimonials-section h4,
 .testimonials-section p, 
@@ -12,19 +12,19 @@
   text-rendering: optimizeLegibility;
 }
 
-/* Estrutura base e transi√ß√£o fluida do Card */
+/* Estrutura base e transiÁ„o fluida do Card */
 .testimonials-section .testimonial-card {
   will-change: transform, border-color, box-shadow;
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Sombra e glow din√¢mico de ouro ao passar o mouse */
+/* Sombra e glow din‚mico de ouro ao passar o mouse */
 .testimonials-section .testimonial-card:hover {
   box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.9), 
               0 0 25px 0 rgba(245, 158, 11, 0.05);
 }
 
-/* Anima√ß√£o interna do √≠cone de aspas */
+/* AnimaÁ„o interna do Ìcone de aspas */
 .testimonials-section .testimonial-card:hover i {
   transform: scale(1.08) rotate(-4deg);
 }

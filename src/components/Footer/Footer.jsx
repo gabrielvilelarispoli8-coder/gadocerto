@@ -1,4 +1,4 @@
-Ôªøimport React from 'react';
+import React from 'react';
 import './Footer.css';
 
 export function Footer() {
@@ -6,10 +6,10 @@ export function Footer() {
     <footer className="bg-[#070707] pt-20 pb-8 border-t border-white/5 relative z-10">
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* Grid Principal do Rodap√© */}
+        {/* Grid Principal do RodapÈ */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 mb-16">
           
-          {/* Coluna 1: Logo, Descri√ß√£o e Lojas de App (Ocupa 5 colunas no desktop) */}
+          {/* Coluna 1: Logo, DescriÁ„o e Lojas de App (Ocupa 5 colunas no desktop) */}
           <div className="md:col-span-5 flex flex-col">
             <img 
               src="/logado.png" 
@@ -17,12 +17,12 @@ export function Footer() {
               className="h-10 object-contain self-start mb-6"
             />
             <p className="text-slate-300 text-[15px] leading-relaxed max-w-sm mb-8 font-medium">
-              Compra e venda de gado com qualidade, facilidade e seguran√ßa.
+              Compra e venda de gado com qualidade, facilidade e seguranÁa.
             </p>
             
-            {/* Bot√µes App Store e Google Play */}
+            {/* Botıes App Store e Google Play */}
             <div className="flex flex-wrap gap-4">
-              {/* Bot√£o Apple */}
+              {/* Bot„o Apple */}
               <a href="#" className="relative group bg-gradient-to-b from-[#1a1a1a] to-[#111] border border-white/10 rounded-2xl p-3 flex items-center gap-4 w-[170px] hover:border-[#d96b27]/50 transition-all duration-300 shadow-lg shadow-black/50">
                 <i className="fa-brands fa-apple text-[#d96b27] text-3xl ml-1"></i>
                 <div className="flex flex-col">
@@ -32,11 +32,11 @@ export function Footer() {
                 <i className="fa-solid fa-arrow-up-right text-[#d96b27] text-[10px] absolute top-3 right-3 opacity-50 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
               </a>
 
-              {/* Bot√£o Google Play */}
+              {/* Bot„o Google Play */}
               <a href="#" className="relative group bg-gradient-to-b from-[#1a1a1a] to-[#111] border border-white/10 rounded-2xl p-3 flex items-center gap-4 w-[170px] hover:border-[#d96b27]/50 transition-all duration-300 shadow-lg shadow-black/50">
                 <i className="fa-brands fa-google-play text-[#d96b27] text-2xl ml-1"></i>
                 <div className="flex flex-col">
-                  <span className="text-[9px] text-slate-400 font-bold tracking-wider">DISPON√çVEL NO</span>
+                  <span className="text-[9px] text-slate-400 font-bold tracking-wider">DISPONÕVEL NO</span>
                   <span className="text-[14px] font-bold text-white leading-tight">Google Play</span>
                 </div>
                 <i className="fa-solid fa-arrow-up-right text-[#d96b27] text-[10px] absolute top-3 right-3 opacity-50 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
@@ -53,11 +53,11 @@ export function Footer() {
             <div className="flex gap-3 mb-6">
               <i className="fa-solid fa-location-dot text-[#d96b27] mt-1 text-sm"></i>
               <div>
-                <h5 className="text-white font-bold text-[15px] mb-2">Endere√ßo</h5>
+                <h5 className="text-white font-bold text-[15px] mb-2">EndereÁo</h5>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Cuiab√° / MT<br/>
+                  Cuiab· / MT<br/>
                   R. Eng. Edgar Prado Arze, S/N<br/>
-                  Centro Pol√≠tico Administrativo<br/>
+                  Centro PolÌtico Administrativo<br/>
                   CEP: 78.049-908
                 </p>
               </div>
@@ -82,9 +82,9 @@ export function Footer() {
             </h4>
             
             <ul className="flex flex-col gap-4 mb-10">
-              <li><a href="#" className="text-slate-300 hover:text-white text-[15px] transition-colors">Canal de √âtica</a></li>
+              <li><a href="#" className="text-slate-300 hover:text-white text-[15px] transition-colors">Canal de …tica</a></li>
               <li><a href="#" className="text-slate-300 hover:text-white text-[15px] transition-colors">Termos de Uso</a></li>
-              <li><a href="#" className="text-slate-300 hover:text-white text-[15px] transition-colors">Pol√≠tica de Privacidade</a></li>
+              <li><a href="#" className="text-slate-300 hover:text-white text-[15px] transition-colors">PolÌtica de Privacidade</a></li>
             </ul>
 
             {/* Redes Sociais */}
@@ -110,7 +110,7 @@ export function Footer() {
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-slate-400">
           <div className="flex items-center gap-2">
             <i className="fa-solid fa-shield-halved text-[#d96b27]"></i>
-            <span>Opera√ß√£o com foco em confian√ßa, rastreabilidade e suporte.</span>
+            <span>OperaÁ„o com foco em confianÁa, rastreabilidade e suporte.</span>
           </div>
           <div>
             &copy;2026 Novilha de Ouro. Todos os direitos reservados.

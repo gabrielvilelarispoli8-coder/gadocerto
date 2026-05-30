@@ -1,4 +1,4 @@
-Ôªøimport React from 'react';
+import React from 'react';
 import './Hero.css';
 
 export function Hero() {
@@ -23,19 +23,19 @@ export function Hero() {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-amber-500"></span>
           </span>
           <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-amber-500 uppercase drop-shadow-md">
-            O Padr√£o Ouro da Pecu√°ria Digital
+            O Padr„o Ouro da Pecu·ria Digital
           </span>
         </div>
 
-        {/* T√≠tulo e Subt√≠tulo Magn√©ticos */}
+        {/* TÌtulo e SubtÌtulo MagnÈticos */}
         <h1 className="text-4xl md:text-5xl lg:text-[64px] font-light text-white leading-[1.1] mb-6 max-w-4xl tracking-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)]">
           A plataforma exclusiva para quem exige <br className="hidden md:block" /> 
           <b className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#d96b27] via-amber-400 to-yellow-200 animate-shimmer-gold">
-            lotes de excel√™ncia.
+            lotes de excelÍncia.
           </b>
         </h1>
         <p className="text-lg md:text-2xl font-medium text-slate-300 max-w-2xl mb-16 md:mb-20 drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
-          Descubra a <strong className="text-amber-500 font-semibold">Novilha de Ouro</strong>. Compre e venda com proced√™ncia garantida, liquidez imediata e assessoria X1 blindada.
+          Descubra a <strong className="text-amber-500 font-semibold">Novilha de Ouro</strong>. Compre e venda com procedÍncia garantida, liquidez imediata e assessoria X1 blindada.
         </p>
 
         {/* Grid de 3 Colunas: Recursos Esc, iPhone Centro, Recursos Dir */}
@@ -49,9 +49,9 @@ export function Hero() {
               <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500/20 transition-colors border border-amber-500/20">
                 <i className="fa-solid fa-scale-balanced text-[20px] text-amber-500/70 group-hover:text-amber-400 group-hover:-translate-y-1 transition-all duration-300"></i>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">Pre√ßo Justo e Posto</h3>
+              <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">PreÁo Justo e Posto</h3>
               <p className="text-slate-400 text-[15px] leading-relaxed max-w-[220px] group-hover:text-slate-200 transition-colors drop-shadow-md">
-                Calcule a viabilidade exata e o pre√ßo posto na sua fazenda antes de fechar qualquer neg√≥cio.
+                Calcule a viabilidade exata e o preÁo posto na sua fazenda antes de fechar qualquer negÛcio.
               </p>
             </div>
             
@@ -60,9 +60,9 @@ export function Hero() {
               <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500/20 transition-colors border border-amber-500/20">
                 <i className="fa-solid fa-truck-fast text-[20px] text-amber-500/70 group-hover:text-amber-400 group-hover:-translate-y-1 transition-all duration-300"></i>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">Log√≠stica de Ouro</h3>
+              <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">LogÌstica de Ouro</h3>
               <p className="text-slate-400 text-[15px] leading-relaxed max-w-[220px] group-hover:text-slate-200 transition-colors drop-shadow-md">
-                Algoritmo inteligente com sugest√µes autom√°ticas para otimizar o espa√ßo e a composi√ß√£o da sua carga.
+                Algoritmo inteligente com sugestıes autom·ticas para otimizar o espaÁo e a composiÁ„o da sua carga.
               </p>
             </div>
 
@@ -79,12 +79,12 @@ export function Hero() {
               {/* Reflexo de Vidro */}
               <div className="absolute inset-0 rounded-[40px] bg-gradient-to-tr from-white/[0.08] via-transparent to-transparent pointer-events-none z-40"></div>
               
-              {/* C√¢mera superior (Dynamic Island) */}
+              {/* C‚mera superior (Dynamic Island) */}
               <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-32 h-7 bg-black rounded-full z-30 shadow-[inset_0_0_4px_rgba(255,255,255,0.15)] flex justify-end items-center pr-3">
                 <div className="w-3 h-3 rounded-full bg-[#151515] shadow-[inset_0_0_3px_rgba(255,255,255,0.3)]"></div>
               </div>
               
-              {/* Bot√µes laterais */}
+              {/* Botıes laterais */}
               <div className="absolute -left-[5px] top-[120px] w-[3px] h-[25px] bg-[#333] rounded-l-md"></div>
               <div className="absolute -left-[5px] top-[160px] w-[3px] h-[45px] bg-[#333] rounded-l-md"></div>
               <div className="absolute -left-[5px] top-[215px] w-[3px] h-[45px] bg-[#333] rounded-l-md"></div>
@@ -125,9 +125,9 @@ export function Hero() {
               <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500/20 transition-colors border border-amber-500/20">
                 <i className="fa-solid fa-list-check text-[20px] text-amber-500/70 group-hover:text-amber-400 group-hover:-translate-y-1 transition-all duration-300"></i>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">Lotes de Padr√£o Ouro</h3>
+              <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">Lotes de Padr„o Ouro</h3>
               <p className="text-slate-400 text-[15px] leading-relaxed max-w-[240px] text-right group-hover:text-slate-200 transition-colors drop-shadow-md">
-                Acesse o raio-x completo do rebanho: proced√™ncia, idade, gen√©tica, peso atual e v√≠deos em alta resolu√ß√£o.
+                Acesse o raio-x completo do rebanho: procedÍncia, idade, genÈtica, peso atual e vÌdeos em alta resoluÁ„o.
               </p>
             </div>
             
@@ -138,7 +138,7 @@ export function Hero() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 tracking-tight group-hover:text-amber-400 transition-colors drop-shadow-md">Fechamento em X1</h3>
               <p className="text-slate-400 text-[15px] leading-relaxed max-w-[220px] text-right group-hover:text-slate-200 transition-colors drop-shadow-md">
-                Esque√ßa a burocracia. Acione nossos gerentes de conta e negocie as propostas diretamente no WhatsApp.
+                EsqueÁa a burocracia. Acione nossos gerentes de conta e negocie as propostas diretamente no WhatsApp.
               </p>
             </div>
 
@@ -147,9 +147,9 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Indicador de Scroll Din√¢mico */}
+      {/* Indicador de Scroll Din‚mico */}
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 hover:opacity-100 transition-opacity duration-300 cursor-pointer animate-bounce-slow">
-        <span className="text-[9px] text-amber-500/80 font-bold tracking-[0.3em] uppercase drop-shadow-md">Conhe√ßa o Aplicativo</span>
+        <span className="text-[9px] text-amber-500/80 font-bold tracking-[0.3em] uppercase drop-shadow-md">ConheÁa o Aplicativo</span>
         <i className="fa-solid fa-chevron-down text-white/80 text-sm drop-shadow-md"></i>
       </div>
 

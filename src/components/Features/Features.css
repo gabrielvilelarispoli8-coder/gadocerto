@@ -1,8 +1,8 @@
-Ôªø/* =========================================
-   ESTILOS PREMIUM DA SE√á√ÉO FEATURES - NOVILHA DE OURO
+/* =========================================
+   ESTILOS PREMIUM DA SE«√O FEATURES - NOVILHA DE OURO
    ========================================= */
 
-/* Renderiza√ß√£o impec√°vel das fontes */
+/* RenderizaÁ„o impec·vel das fontes */
 .features-section h2, 
 .features-section h4, 
 .features-section p, 
@@ -28,7 +28,7 @@
   animation: float-phone 6s ease-in-out infinite;
 }
 
-/* Pulso Dourado atr√°s do celular */
+/* Pulso Dourado atr·s do celular */
 @keyframes pulse-gold-slow {
   0%, 100% {
     opacity: 0.4;
@@ -45,9 +45,9 @@
 }
 
 /* -----------------------------------------
-   ANIMA√á√ÉO DO SLIDER (BARRA DE PROGRESSO)
+   ANIMA«√O DO SLIDER (BARRA DE PROGRESSO)
    ----------------------------------------- */
-/* Essa anima√ß√£o dura exatamente os 6 segundos do intervalo do React */
+/* Essa animaÁ„o dura exatamente os 6 segundos do intervalo do React */
 @keyframes slide-progress {
   0% {
     width: 0%;
@@ -78,7 +78,7 @@
 }
 
 /* -----------------------------------------
-   WHATSAPP WIGGLE (CHAMADA DE ATEN√á√ÉO)
+   WHATSAPP WIGGLE (CHAMADA DE ATEN«√O)
    ----------------------------------------- */
 @keyframes wiggle {
   0%, 100% { transform: rotate(-3deg); }
@@ -89,7 +89,7 @@
   animation: wiggle 2.5s ease-in-out infinite;
 }
 
-/* Efeito de luz varrendo o bot√£o do WhatsApp */
+/* Efeito de luz varrendo o bot„o do WhatsApp */
 @keyframes shimmer {
   100% { transform: translateX(100%); }
 }
